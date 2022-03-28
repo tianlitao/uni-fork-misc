@@ -17,10 +17,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.IERC20__factory>;
     getContractFactory(
-      name: "ERC20",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.ERC20__factory>;
-    getContractFactory(
       name: "MockERC20",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.MockERC20__factory>;
@@ -28,17 +24,16 @@ declare module "hardhat/types/runtime" {
       name: "UniswapInterfaceMulticall",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.UniswapInterfaceMulticall__factory>;
+    getContractFactory(
+      name: "WCKB",
+      signerOrOptions?: ethers.Signer | FactoryOptions
+    ): Promise<Contracts.WCKB__factory>;
 
     getContractAt(
       name: "IERC20",
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.IERC20>;
-    getContractAt(
-      name: "ERC20",
-      address: string,
-      signer?: ethers.Signer
-    ): Promise<Contracts.ERC20>;
     getContractAt(
       name: "MockERC20",
       address: string,
@@ -49,6 +44,11 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.UniswapInterfaceMulticall>;
+    getContractAt(
+      name: "WCKB",
+      address: string,
+      signer?: ethers.Signer
+    ): Promise<Contracts.WCKB>;
 
     // default types
     getContractFactory(
