@@ -29,16 +29,6 @@ const tokens = [
 ];
 
 async function main() {
-  const UniswapInterfaceMulticall = await ethers.getContractFactory(
-    "UniswapInterfaceMulticall"
-  );
-  const uniswapInterfaceMulticall = await UniswapInterfaceMulticall.deploy();
-  await uniswapInterfaceMulticall.deployed();
-  console.log(
-    "UniswapInterfaceMulticall deployed to:",
-    uniswapInterfaceMulticall.address
-  );
-
   const WCKB = await ethers.getContractFactory("WCKB");
   const wCKB = await WCKB.deploy();
   await wCKB.deployed();
