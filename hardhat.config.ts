@@ -34,7 +34,7 @@ const config: HardhatUserConfig = {
   },
   networks: {
     gw_testnet_v1: {
-      url: `https://godwoken-testnet-web3-v1-rpc.ckbapp.dev`,
+      url: `https://godwoken-testnet-v1.ckbapp.dev`,
       accounts: [process.env.PRIVATE_KEY!],
     },
   },
