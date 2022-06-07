@@ -1,0 +1,60 @@
+{
+  "name": "Godwoken Testnet V1",
+  "timestamp": "2022-06-7T09:14:18+00:00",
+  "version": {
+    "major": 0,
+    "minor": 0,
+    "patch": 1
+  },
+  "tags": {
+
+  },
+  "logoURI": "ipfs://QmNa8mQkrNKp1WEEeGjFezDmDeodkWRevGFN8JCV7b4Xir",
+  "keywords": [
+    "godwoken"
+  ],
+  "tokens": [
+    {
+      "chainId": 71401,
+      "address": "0x203ac81b7807fF373c26b13DA9Fca78bf7Ee9257",
+      "name": "Wrapped CKB",
+      "symbol": "WCKB",
+      "decimals": 8
+    },
+    {
+      "chainId": 71401,
+      "address": "0x14F6cC127ED7AF063782aF40cec878e5DEE96185",
+      "name": "Ethereum",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    {
+      "chainId": 71401,
+      "address": "0x4B4C8041b9eeb65F1789aCe9595fF79D917e3CB6",
+      "name": "USDCoin",
+      "symbol": "USDC",
+      "decimals": 6
+    },
+    {
+      "chainId": 71401,
+      "address": "0xbD4292Dd34862eF322639b457eAA2CAae7511de1",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18
+    },
+    {
+      "chainId": 71401,
+      "address": "0x3c449D9b719962D0457676B3d52a5A18Abe52A29",
+      "name": "Chainlink Token",
+      "symbol": "LINK",
+      "decimals": 18
+    },
+    {
+      "chainId": 71401,
+      "address": "0x82E822c393180FF9f2d22b3eB585921ade456F9e",
+      "name": "Uniswap",
+      "symbol": "UNI",
+      "decimals": 18
+    }
+  ]
+}
